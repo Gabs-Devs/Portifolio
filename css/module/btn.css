@@ -1,0 +1,97 @@
+button {
+    background-color: var(--background-button-default);
+    border: none;
+    border-radius: var(--radius-100);
+    padding: var(--spacing-none);
+}
+
+button:hover {
+    background-color: var(--background-button-active);
+}
+
+button.noSelect:hover {
+    background-color: var(--background-button-default);
+    cursor: url('../../assets/cursor/cursor.png'), default;
+}
+
+button.noSelect>a:hover {
+    cursor: url('../../assets/cursor/cursor.png'), default;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-x-s);
+    color: var(--text-color-button-default);
+    padding: var(--spacing-xs) var(--spacing-md);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text-color-button-active);
+}
+
+.button-outline {
+    background-color: var(--background-button-outline);
+    border: var(--border-size-button-outline) solid var(--border-color-button-outline);
+    border-radius: var(--radius-100);
+    padding: var(--spacing-none);
+}
+
+.button-outline:hover {
+    background-color: var(--background-button-outline-active);
+}
+
+.a-outline {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--text-color-button-outline);
+    padding: var(--spacing-x-s) var(--spacing-md);
+    text-decoration: none;
+}
+
+.a-outline:hover {
+    color: var(--text-color-button-outline-active);
+}
+
+.custom-dropdown-button {
+    background-color: var(--background-button-default);
+    border: none;
+    border-radius: var(--radius-100);
+    color: var(--text-color-button-default);
+    padding: var(--spacing-xs) var(--spacing-md);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.custom-dropdown-button:hover {
+    background-color: var(--background-button-active);
+}
+
+.custom-dropdown-menu {
+    min-width: 120px;
+    width: auto;
+    text-align: center;
+    border-radius: var(--radius-md);
+    border: var(--border-size) solid var(--border-color);
+    padding: var(--spacing-xs);
+}
+
+.custom-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.custom-dropdown-item:hover {
+    background-color: var(--background-button-default);
+    border-radius: var(--radius-xs);
+    transition: all .2s ease-in-out;
+}
+
+.custom-dropdown-button.active {
+    background-color: var(--background-button-outline);
+    border: var(--border-size) solid var(--border-color);
+}

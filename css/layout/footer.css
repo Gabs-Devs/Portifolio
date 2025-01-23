@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-lg);
+    gap: var(--spacing-md);
+    text-align: center;
+}

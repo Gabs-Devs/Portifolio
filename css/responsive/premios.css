@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+    .container-premios {
+        flex-direction: column;
+    }
+    .container-info-premios {
+        width: 100%;
+    }
+}

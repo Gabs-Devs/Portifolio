@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --purple: #765898;
+    --black: #292929;
+    --white: #ffffff;
+    --neon-green: #52d053;
+
+    --purple-active: #765898;
+    --purple-active-text: #644b81;
+
+    --background-primary: var(--black);
+    --background-secundary: var(--purple);
+    --background-terciary: var(--white);
+
+    --background-button-default: var(--purple);
+    --text-color-button-default: var(--white);
+
+    --background-button-active: var(--purple-active);
+    --text-color-button-active: var(--white);
+
+    --background-button-outline: var(--black);
+    --background-button-outline-active: var(--neon-green);
+    
+    --text-color-button-outline: var(--white);
+    --text-color-button-outline-active: var(--white);
+
+    --border-color-button-outline: var(--white);
+    --border-size-button-outline: var(--border-size);
+
+    --text-color-black: var(--white);
+    --text-color-white: var(--black);
+    --text-color-active: var(--purple-active-text);
+
+    --border-color: var(--white);
+    --border-size: 2px;
+
+    --icon-color: var(--white);
+
+    --h1: 40px;
+    --h2: 28px;
+    --h3: 24px;
+    --h4: 20px;
+    --pf: 16px;
+    --label: 12px;
+
+    --0: 0px;
+    --1: 4px;
+    --1-5: 6px;
+    --2: 8px;
+    --3: 12px;
+    --4: 16px;
+    --5: 20px;
+    --6: 24px;
+    --7: 28px;
+    --8: 32px;
+    --9: 36px;
+    --10: 40px;
+    --20: 80px;
+    --100: 100px;
+
+    --spacing-none: var(--0);
+    --spacing-xxs: var(--1);
+    --spacing-x-s: var(--1-5);
+    --spacing-xs: var(--2);
+    --spacing-sm: var(--3);
+    --spacing-md: var(--4);
+    --spacing-lg: var(--5);
+    --spacing-xl: var(--6);
+    --spacing-2xl: var(--7);
+    --spacing-3xl: var(--8);
+    --spacing-4xl: var(--9);
+    --spacing-5xl: var(--10);
+
+    --radius-xxs: var(--1);
+    --radius-xs: var(--2);
+    --radius-sm: var(--3);
+    --radius-md: var(--4);
+    --radius-lg: var(--5);
+    --radius-xl: var(--6);
+    --radius-100: var(--100);
+}
+
+.H1-Bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: var(--h1);
+    line-height: calc(var(--h1) + 8px);
+}
+
+.H2-Semibold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: var(--h2);
+    line-height: calc(var(--h2) + 14px);
+}
+
+.H3-Regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: var(--h3);
+    line-height: calc(var(--h3) + 12px);
+}
+
+.H4-Semibold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: var(--h4);
+    line-height: calc(var(--h4) + 10px);
+}
+
+.PF-Regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: var(--pf);
+    line-height: calc(var(--pf) + 8px);
+}
+
+.PF-Medium {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: var(--pf);
+    line-height: calc(var(--pf) + 8px);
+}
+
+.PF-Semibold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: var(--pf);
+    line-height: calc(var(--pf) + 8px);
+}
+
+.Label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: var(--label);
+    line-height: calc(var(--label) + 6px);
+}
+.text-color{
+    color: var(--background-terciary);
+}
+@media (max-width: 372px) {
+    .H1-Bold {
+        font-size: calc(var(--h1) - 8px);
+    }
+}

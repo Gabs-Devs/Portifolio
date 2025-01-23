@@ -1,0 +1,29 @@
+@import url('base/reset.css');
+@import url('base/variables.css');
+
+@import url('layout/html.css');
+@import url('layout/body.css');
+@import url('layout/header.css');
+@import url('layout/nav.css');
+@import url('layout/about-me.css');
+@import url('layout/presentation.css');
+@import url('layout/premios.css');
+@import url('layout/projetos.css');
+@import url('layout/footer.css');
+@import url('layout/title-description.css');
+
+@import url('module/btn.css');
+@import url('module/cursor.css');
+@import url('module/text-animation.css');
+@import url('module/skill-id.css');
+@import url('module/dropdown.css');
+@import url('module/top-site.css');
+@import url('module/img.css');
+
+@import url('responsive/html.css');
+@import url('responsive/nav.css');
+@import url('responsive/about-me.css');
+@import url('responsive/presentation.css');
+@import url('responsive/premios.css');
+@import url('responsive/projetos.css');
+@import url('responsive/footer.css');

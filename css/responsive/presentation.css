@@ -1,0 +1,22 @@
+@media (max-width: 962px) {
+    #presentation {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 628px) {
+    .div-assets-presentation {
+        flex-direction: column;
+        width: 100%;
+    }
+    .rect-blue {
+        width: 100%;
+        max-width: 360px;
+        height: 132px;
+    }
+    .img-perfil {
+        width: 100%;
+        max-width: 360px;
+    }
+}

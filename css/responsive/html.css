@@ -1,0 +1,5 @@
+@media (max-width: 428px) {
+    html {
+        padding: var(--spacing-xs);        
+    }
+}

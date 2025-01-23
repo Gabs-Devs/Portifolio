@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+    #about-me {
+        flex-direction: column;
+    }
+    .container-about-me:nth-child(2) {
+        border-left: none;
+    }
+    .container-about-me:nth-child(1) {
+        border-bottom: var(--border-size) solid var(--border-color);
+    }
+    .container-about-me {
+        width: 100%;
+    }
+}

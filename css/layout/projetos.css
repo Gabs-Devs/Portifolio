@@ -1,0 +1,34 @@
+#projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+    text-align: center;
+    border-bottom: var(--border-size) solid var(--border-color);
+    padding: var(--spacing-5xl) var(--spacing-lg);
+}
+
+.div-projetos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--spacing-5xl);
+}
+
+.container-projetos {
+    display: flex;
+    gap: var(--spacing-5xl);
+}
+
+.info-projeto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.img-project {
+    border-radius: var(--radius-md);
+    border: var(--border-size) solid var(--border-color);
+}
