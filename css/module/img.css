@@ -1,3 +1,8 @@
 img.imgs {
     pointer-events: none;
 }
+.img-perfil {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15%;
+}
